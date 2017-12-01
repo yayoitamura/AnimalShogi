@@ -14,7 +14,10 @@ public class CubeControl : MonoBehaviour {
 
 	}
 	public void OnUserAction () {
-		rigidBody.AddForce (force, forceMode);
-		Debug.Log ("OnUserAction");
+		// rigidBody.AddForce (force, forceMode);
+
+		Vector2 vec = new Vector2 (100, 200);
+		transform.position = GodTouch.GetPosition ();
+
 	}
 }
