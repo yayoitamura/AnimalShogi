@@ -11,7 +11,6 @@ public class CubeControl : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rigidBody = gameObject.GetComponent<Rigidbody> ();
-
 	}
 	public void OnUserAction () {
 		// rigidBody.AddForce (force, forceMode);
