@@ -11,12 +11,16 @@ public class CubeControl : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rigidBody = gameObject.GetComponent<Rigidbody> ();
+		// RectTransform rect_transform = GetComponent<RectTransform> ();
 	}
 	public void OnUserAction () {
 		// rigidBody.AddForce (force, forceMode);
 
-		Vector2 vec = new Vector2 (100, 200);
-		transform.position = GodTouch.GetPosition ();
+		// Vector2 vec = new Vector2 (100, 200);
+		// transform.position = GodTouch.GetPosition ();
+		Vector2 pos = GetComponent<RectTransform> ().anchoredPosition;
+		pos.x *= 2;
+		GetComponent<RectTransform> ().anchoredPosition = pos;
 
 	}
 }
