@@ -2,7 +2,7 @@
 using UnityEngine;
 
 [RequireComponent (typeof (Rigidbody))]
-public class CubeControl : MonoBehaviour {
+public class Koma : MonoBehaviour {
 
 	Rigidbody rigidBody;
 	public Vector3 force = new Vector3 (0, 10, 0);

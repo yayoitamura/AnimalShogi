@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Board : MonoBehaviour {
+public class Ban : MonoBehaviour {
 
 	string[, ] board = new string[3, 4];
 
@@ -16,7 +16,7 @@ public class Board : MonoBehaviour {
 
 	}
 
-	public void OnUserAction (CubeControl koma) {
+	public void OnUserAction (Koma koma) {
 		koma.OnUserAction ();
 		// Vector2 pos = GetComponent<RectTransform> ().anchoredPosition;
 		// pos.y += -220;
