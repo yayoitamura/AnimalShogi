@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 60942931}
   - component: {fileID: 60942930}
   m_Layer: 5
-  m_Name: piece
+  m_Name: Koma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 76086551}
   - component: {fileID: 76086550}
   m_Layer: 5
-  m_Name: piece
+  m_Name: Koma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -393,7 +393,7 @@ GameObject:
   - component: {fileID: 458608373}
   - component: {fileID: 458608372}
   m_Layer: 5
-  m_Name: piece
+  m_Name: Koma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 824154014}
   - component: {fileID: 824154013}
   m_Layer: 5
-  m_Name: piece
+  m_Name: Koma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 1029703952}
   - component: {fileID: 1029703951}
   m_Layer: 5
-  m_Name: piece
+  m_Name: Koma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -671,7 +671,7 @@ GameObject:
   - component: {fileID: 1063261068}
   - component: {fileID: 1063261067}
   m_Layer: 5
-  m_Name: piece
+  m_Name: Koma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -858,7 +858,7 @@ GameObject:
   - component: {fileID: 1388244383}
   - component: {fileID: 1388244382}
   m_Layer: 5
-  m_Name: piece
+  m_Name: Koma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -961,10 +961,10 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1690299927}
           m_MethodName: OnUserAction
-          m_Mode: 5
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1388244382}
+            m_ObjectArgumentAssemblyTypeName: Koma, Assembly-CSharp
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: CubeControl
@@ -984,7 +984,7 @@ GameObject:
   - component: {fileID: 1495804049}
   - component: {fileID: 1495804048}
   m_Layer: 5
-  m_Name: piece
+  m_Name: Koma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1149,7 +1149,7 @@ GameObject:
   - component: {fileID: 1690299925}
   - component: {fileID: 1690299927}
   m_Layer: 5
-  m_Name: board
+  m_Name: Ban
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1238,7 +1238,7 @@ GameObject:
   - component: {fileID: 1866315754}
   - component: {fileID: 1866315753}
   m_Layer: 5
-  m_Name: piece
+  m_Name: Koma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1306,7 +1306,7 @@ GameObject:
   - component: {fileID: 2037104481}
   - component: {fileID: 2037104480}
   m_Layer: 5
-  m_Name: piece
+  m_Name: Koma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -17,4 +17,8 @@ public class Koma : MonoBehaviour {
 		GetComponent<RectTransform> ().anchoredPosition = pos;
 
 	}
+
+	public void Search (string[, ] potision) {
+		Debug.Log (potision);
+	}
 }
